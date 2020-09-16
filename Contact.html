@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bubble Under - The diving club for the south-west UK</title>
+</head>
+<body>
+   <h1 class="sitebranding">BubbleUnder.com</h1>
+   <p class="tagline">Diving club for the south-west Uk, let's make a splash!</p>
+   <input type="text" name="enterphrase" id="enterphrase" placeholder="Enter search phrase">
+   <label for="enterphrase">in</label>
+   <select>
+       <option value="bubbleUnder">BubbleUnder</option>
+       <option value="web">Web</option>
+    </select>
+    <button type="submit" value="Enter" >Enter</button>
+    <div id="nav">
+    <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="About.html">About Us</a></li>
+        <li><a href="Club Events.html">Club Events.html</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="Image Gallery.html">Image Gallery</a></li>
+    <h2>Contact Us</h2>
+        <p>To let us know about a forthcoming dive event, please use the form below.</p>
+        <div class="field"></div>
+        <form action="get">
+            <fieldset>
+                <legend>Tell us About a Dive Event</legend>
+                <label for="contact name">Contact Name</label>
+                <input type="text" name="contact name" id="contact name">
+                <label for="Telephone Number">Telephone Number</label>
+                <input type="text" name="Telephone Number" id="Telephone Number">
+                <label for="Email Address">Email Address</label>
+                <input type="text" name="Email Address" id="Email Address">
+                
+                <label for="What's the event called?">What's the event called?</label>
+                <input type="text" name="What's the event called?" id="What's the event called?"></label>
+
+                <label for="When's the event happening?">When's the event happening?</label>
+                <input type="datetime" name="When's the event happening?" id="When's the event happening?" placeholder="DD/MM/YYYY">
+                
+
+                <label for="What region is the event in?">What region is the event in?</label>
+                <select name="what region is the event in?" id="What region is the event in?">
+                    <option value="South-west">South-west</option>
+                    <option value="South-East">South-East</option>
+                    <option value="Midlands">Midlands</option>
+                    <option value="Central">Central</option>
+                    <option value="London">London</option>
+                    <option value="EastNorth">East</option>
+                    <option value="North">North</option>
+                    <option value="Scotland">Scotland</option>
+                    <option value="Northern Ireland">Northern Ireland</option>
+                    <option value="International(see more detail)">International(see more detail)</option>
+                </select>
+                <p >Please provide any other details you think will be useful to us in the text area below (it may save us calling or emailing you, and help avoid delays).</p>
+                <label for="detail">More details (as much as you think we'll need!)</label>
+                <textarea name="details" id="details" cols="30" rows="10"></textarea>
+                <p>If we need to call you back for any more info, what would be the best time to call you on the number supplied?</p>
+                <div class="radio">
+                   <p> <input type="radio" name="time" id="morning" >
+                    <label for="morning">In the morning</label></p>
+                <p> <input type="radio" name="time" id="afternoon" >
+                    <label for="afternoon">In the Afternoon</label></p>
+                <p> <input type="radio" name="time" id="evening" >
+                    <label for="evening">In the evening</label></p>
+                <p>   <input type="radio" name="time" id="no calls" >
+                    <label for="no calls">No call please</label></p>
+                </div>
+              <p> Bubble Under may share information you give us here with other like-minded people or web sites to promote the event. Please confirm if you are happy for us to do this.</p>
+              <p>
+                  <input type="checkbox" name="" id="">
+              </p>
+
+
+
+
+
+            </fieldset>
+        </form>
