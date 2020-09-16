@@ -1,0 +1,22 @@
+h3{
+    color: coral;
+    background-color: #000000;
+}
+body{
+    background-color:rgb(253, 253, 253);
+    background-image: image("2nd.jpg")
+}
+   #login {
+    
+    color: red;
+    float: right;
+}
+.field{
+   padding: 20px;
+}
+.legend{
+   color: red;
+}
+#home{
+   color: red;
+}
